@@ -491,6 +491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1-1MAPA
       objectReference: {fileID: 0}
+    - target: {fileID: 1309394700415917122, guid: a14331d01ccea90499611dd8a4d0d049, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6100444502447342250, guid: a14331d01ccea90499611dd8a4d0d049, type: 3}
       propertyPath: m_SortingLayer
       value: 0
@@ -773,6 +777,10 @@ PrefabInstance:
     - target: {fileID: 1309394700415917122, guid: a14331d01ccea90499611dd8a4d0d049, type: 3}
       propertyPath: m_Name
       value: 1-1MAPA (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1309394700415917122, guid: a14331d01ccea90499611dd8a4d0d049, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7601096694401103079, guid: a14331d01ccea90499611dd8a4d0d049, type: 3}
       propertyPath: m_RootOrder
