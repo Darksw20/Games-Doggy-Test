@@ -33,10 +33,12 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Crouch"))
         {
             crouch = true;
+            myAnimator.SetBool("crouch", true);
         }
         else if (Input.GetButtonUp("Crouch"))
         {
             crouch = false;
+            myAnimator.SetBool("crouch", false);
         }
     }
     private void FixedUpdate()
