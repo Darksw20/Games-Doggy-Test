@@ -254,7 +254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 423835418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.092, y: -3.029, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children:
   - {fileID: 1864623674}
@@ -285,11 +285,11 @@ CircleCollider2D:
   m_GameObject: {fileID: 423835418}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c5fdd0d2a5fb33e459add42da1fed6b2, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.25}
+  m_Offset: {x: 0, y: -1.14}
   serializedVersion: 2
   m_Radius: 1.0086586
 --- !u!61 &423835424
@@ -301,11 +301,11 @@ BoxCollider2D:
   m_GameObject: {fileID: 423835418}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c5fdd0d2a5fb33e459add42da1fed6b2, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.09966916, y: 0.642313}
+  m_Offset: {x: -0.018381238, y: 0.642313}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -316,7 +316,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0540853, y: 3.0006006}
+  m_Size: {x: 1.8915093, y: 3.0006008}
   m_EdgeRadius: 0
 --- !u!50 &423835425
 Rigidbody2D:
@@ -360,7 +360,7 @@ MonoBehaviour:
     m_Bits: 55
   m_GroundCheck: {fileID: 141914623}
   m_CeilingCheck: {fileID: 1864623674}
-  m_CrouchDisableCollider: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 423835424}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 423835421}
-  cameraDistance: 40
+  cameraDistance: 73
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -435,7 +435,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 2.699792
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -459,7 +459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: -1.04, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
